@@ -2,7 +2,7 @@
 Overview
 The Personal Library Management System API is a RESTful API built using Django and Django REST Framework. It allows users to manage their personal library of books, including features for listing, adding, updating, and deleting books. The API integrates with a third-party service to retrieve book information using ISBN.
 
-Features
+<h1>Features</h1>
 Initialize a new Django project with the Django REST framework.
 Define models for books and users, with features such as authentication, authorization, and data storage in PostgreSQL.
 Implement token-based authentication to secure the API, ensuring that users can only access and modify their own book entries.
@@ -12,13 +12,13 @@ Write unit tests for each API endpoint to ensure functionality, including tests 
 Handle error cases and edge cases appropriately.
 Optimize queries to the database to avoid N+1 problems.
 Document the API endpoints using Swagger.
-Installation
+<h1>Installation</h1>
 Clone this repository to your local machine.
 Install the required dependencies using pip install -r requirements.txt.
 Set up a PostgreSQL database and configure the database settings in settings.py.
 Apply migrations using python manage.py migrate.
 Run the development server using python manage.py runserver.
-Usage
+<h1>Usage</h1>
 Access the API endpoints using the provided URLs:
 /createbooks/: Endpoint for creating new books.
 /listbooks/: Endpoint for listing all books.
@@ -27,14 +27,14 @@ Access the API endpoints using the provided URLs:
 /fetch/: Endpoint for fetching book details using ISBN.
 Use tools like Postman or Swagger UI to interact with the API endpoints.
 Ensure proper authentication by providing valid user credentials or tokens when required.
-Testing
+<h1>Testing</h1>
 Run unit tests using python manage.py test to ensure the correctness of each API endpoint.
 Include tests for authentication, authorization, rate limiting, and error handling to cover all scenarios.
-Contributing
+<h1>Contributing</h1>
 Fork the repository.
 Create a new branch (git checkout -b feature/my-feature).
 Make your changes and commit them (git commit -am 'Add new feature').
 Push to the branch (git push origin feature/my-feature).
 Create a new pull request.
-Credits
+<h1>Credits</h1>
 This project was developed by Edafe Emmanuel Oghogho as part of E-library Project.
